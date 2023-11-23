@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
-import styled from '@emotion/styled';
-import tw from 'twin.macro';
+import React from "react";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
+import styled from "@emotion/styled";
+import tw from "twin.macro";
 
 const Container = styled.div`
   ${tw`text-center transition-all ease-in`}
@@ -39,7 +39,7 @@ const Title = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>

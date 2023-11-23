@@ -5,12 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
-import styled from '@emotion/styled';
+import React from "react";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
+import styled from "@emotion/styled";
 
-import './layout.css';
+import "./layout.css";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -33,7 +33,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <Content>
           <main>{children}</main>

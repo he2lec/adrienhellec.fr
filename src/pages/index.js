@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/layout';
-import Seo from '../components/seo';
-import Title from '../components/indexPage/title';
-import Intro from '../components/indexPage/intro';
-import Contact from '../components/indexPage/contact';
-import Skills from '../components/indexPage/skills';
-import Projects from '../components/indexPage/projects';
-import Footer from '../components/indexPage/footer';
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import Title from "../components/indexPage/title";
+import Intro from "../components/indexPage/intro";
+import Contact from "../components/indexPage/contact";
+import Skills from "../components/indexPage/skills";
+import Projects from "../components/indexPage/projects";
+import Footer from "../components/indexPage/footer";
 
-import styled from '@emotion/styled';
-import tw from 'twin.macro';
+import styled from "@emotion/styled";
+import tw from "twin.macro";
 
 const Center = styled.div`
   margin: 0 auto;
