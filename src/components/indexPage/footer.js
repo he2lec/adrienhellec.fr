@@ -43,7 +43,7 @@ const Intro = () => (
     </Link>{" "}
     (
     <Link
-      href="https://github.com/he2lec/website"
+      href="https://github.com/he2lec/adrienhellec.fr"
       target="_blank"
       rel="noopener noreferrer"
     >
