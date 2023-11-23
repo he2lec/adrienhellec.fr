@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import tw from 'twin.macro';
+import React from "react";
+import styled from "@emotion/styled";
+import tw from "twin.macro";
 
 const Title = styled.h3`
   ${tw`text-white font-bold text-5xl mb-8`}

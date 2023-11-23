@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 
-const netlify = require(`gatsby-adapter-netlify`).default
+const netlify = require(`gatsby-adapter-netlify`).default;
 
 /**
  * @type {import('gatsby').GatsbyConfig}
@@ -22,4 +22,4 @@ module.exports = {
     `gatsby-plugin-postcss`,
   ],
   adapter: netlify(),
-}
+};

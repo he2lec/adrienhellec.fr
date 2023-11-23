@@ -1,21 +1,21 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/layout';
-import Seo from '../components/seo';
-import { Link } from 'gatsby';
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import { Link } from "gatsby";
 
-import styled from '@emotion/styled';
-import tw from 'twin.macro';
+import styled from "@emotion/styled";
+import tw from "twin.macro";
 
-const Container = styled('div')`
+const Container = styled("div")`
   ${tw`flex flex-col items-center justify-center h-screen`}
 `;
 
-const Text = styled('span')`
+const Text = styled("span")`
   ${tw`text-white text-center`};
 `;
 
-const Button = styled('button')`
+const Button = styled("button")`
   ${tw`bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded
     inline-flex items-center text-black cursor-pointer transition-all
     duration-150 ease-linear`};
@@ -31,15 +31,15 @@ const Button = styled('button')`
   }
 `;
 
-const Center = styled('div')`
+const Center = styled("div")`
   ${tw`text-center`}
 `;
 
-const StyledLink = styled(props => <Link {...props} />)`
+const StyledLink = styled((props) => <Link {...props} />)`
   ${tw`no-underline`}
 `;
 
-const AbsoluteLink = styled('span')`
+const AbsoluteLink = styled("span")`
   ${tw`absolute top-0 w-32 text-center font-normal border transition-all
     duration-150 ease-linear rounded`}
   & > * {

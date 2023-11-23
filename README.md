@@ -12,19 +12,18 @@ Profile website of Adrien Hellec, built using React JS/Gatsby (based on
 [gatsby-starter-julia](https://github.com/niklasmtj/gatsby-starter-julia)),
 Tailwind CSS and Emotion JS, and automatically deployed on Netlify.
 
-
 ## 🚀 Quick start
 
 ```sh
 # Clean and reset repository
-gatsby clean
+yarn clean
 
 # Launch the website on localhost:8000
-gatsby develop
+yarn develop
 
 # Format with Prettier and ESlint
-gatsby format
+yarn format
 
 # Build the app
-gatsby build
+yarn build
 ```

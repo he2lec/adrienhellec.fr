@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import tw from 'twin.macro';
+import React from "react";
+import styled from "@emotion/styled";
+import tw from "twin.macro";
 
-import teamworkImage from '../../images/teamwork.jpg';
-import containersImage from '../../images/containers.jpg';
-import devImage from '../../images/dev.jpg';
+import teamworkImage from "../../images/teamwork.jpg";
+import containersImage from "../../images/containers.jpg";
+import devImage from "../../images/dev.jpg";
 
 const Title = styled.h3`
   ${tw`text-white font-bold text-5xl mb-8`}
@@ -28,7 +28,7 @@ const Card = styled.div`
 // eslint-disable-next-line jsx-a11y/alt-text
 const CardImage = styled.div`
   ${tw`w-full h-48`}
-  background-image: url(${props => props.src});
+  background-image: url(${(props) => props.src});
   background-size: cover;
 `;
 
@@ -69,7 +69,7 @@ const Projects = () => (
               Java <CardSubtitle>Development</CardSubtitle>
             </CardTitle>
             <ProjectDescription>
-              From workers to API services, and from design to rollout. 
+              From workers to API services, and from design to rollout.
             </ProjectDescription>
             <Techs>
               <Techno>Java</Techno>
@@ -91,7 +91,8 @@ const Projects = () => (
               Devops <CardSubtitle>Infrastructure</CardSubtitle>
             </CardTitle>
             <ProjectDescription>
-              Getting further and being self-reliant in infrastructure management.
+              Getting further and being self-reliant in infrastructure
+              management.
             </ProjectDescription>
             <Techs>
               <Techno>Kubernetes</Techno>

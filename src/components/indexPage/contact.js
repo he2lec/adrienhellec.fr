@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import tw from 'twin.macro';
+import React from "react";
+import styled from "@emotion/styled";
+import tw from "twin.macro";
 
 const Grid = styled.div`
   ${tw`flex flex-wrap overflow-hidden mb-4 mt-8 px-5`}
@@ -17,7 +17,7 @@ const ColumnResp = styled(Column)`
 const Button = styled.button`
   ${tw`text-center font-bold w-full bg-white rounded px-6 py-4 md:py-2
     hover:bg-gray-900 hover:text-white transition-all duration-300 ease-in`}
-  color: ${props => props.color};
+  color: ${(props) => props.color};
   &:hover {
     transform: scale(1.05);
   }

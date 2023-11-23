@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
@@ -10,12 +10,13 @@ code {
 
 body {
   margin: 0;
-  font-family: 'Roboto', 'Avenir', 'Helvetica', 'sans-serif';
+  font-family: "Roboto", "Avenir", "Helvetica", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   background-color: black;
-  background-image: url("../images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  background-image: url("../images/overlay.png"),
+    linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 }
 article,
 aside,
@@ -195,7 +196,9 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font:
+    112.5%/1.45em georgia,
+    serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
