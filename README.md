@@ -2,7 +2,7 @@
   Adrien Hellec's Website
 </h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/74f73f0b-1168-493d-b451-651394b3b8d3/deploy-status)](https://app.netlify.com/sites/agitated-leavitt-de5b97/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/df795122-0f7d-4e23-8846-c9a0e590d6c1/deploy-status)](https://app.netlify.com/sites/shimmering-hamster-68245c/deploys)
 [![GitHub issues](https://img.shields.io/github/issues/he2lec/website)](https://github.com/he2lec/website/issues)
 [![GitHub license](https://img.shields.io/github/license/he2lec/website)](https://github.com/he2lec/website/blob/master/LICENSE)
 
